@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fashion.css">
+    <title>About Us - Your Fashion Website</title>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <a id="logo">Fashion.com</a>
+        </div>
+        <ul>
+            <li><a href="fashion.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav><div class="about-container">
+        <h1>About Us</h1>
+        <p>
+            Welcome to Your Fashion Website, where style meets elegance. 
+            Our passion for fashion drives us to bring you the latest trends, 
+            curated collections, and style inspirations.
+        </p>
+
+        <!-- Functionality: Toggle Content -->
+        <button onclick="toggleContent()">Read More</button>
+
+        <!-- Hidden Content -->
+        <div id="hiddenContent" style="display: none;">
+            <p>
+                At Your Fashion Website, we believe that everyone deserves to 
+                express their unique style. Whether you're a trendsetter or 
+                a classic enthusiast, our platform is here to inspire and guide 
+                you on your fashion journey.
+            </p>
+        </div>
+    </div>
+
+    <!-- JavaScript Function to Toggle Content -->
+    <script>
+        function toggleContent() {
+            var content = document.getElementById("hiddenContent");
+            if (content.style.display === "none") {
+                content.style.display = "block";
+            } else {
+                content.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>
+
+    <!-- About Us Content Goes Here -->
+
+</body>
+</html>
