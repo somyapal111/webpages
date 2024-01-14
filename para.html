@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Add some style to the page */
+        * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+        }
+    
+        .container {
+          max-width: 1200px;
+          margin: 0 auto;
+          font-family: Arial, sans-serif;
+        }
+    
+        .hero {
+          
+         
+          /* background-size: cover;
+          background-position: center; */
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+    
+        .hero h1 {
+          color: white;
+          font-size: 19px;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+    
+        .main {
+          padding: 40px;
+        }
+    
+        .section {
+          margin-bottom: 40px;
+        }
+    
+        .section h2 {
+          font-size: 12px;
+          margin-bottom: 20px;
+        }
+    
+        .section p {
+          font-size: 12px;
+          line-height: 1.5;
+        }
+    
+        .section img {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+        }
+    
+        .grid {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-gap: 20px;
+        }
+    
+        .grid-item {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+    
+        .grid-item img {
+          width: 200px;
+          height: 200px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+    
+        .grid-item h3 {
+          font-size: 12px;
+          margin-top: 10px;
+        }
+    
+        .grid-item p {
+          font-size: 12px;
+          text-align: center;
+        }
+    
+        .button {
+          display: inline-block;
+          padding: 15px 25px;
+          background-color: #f44336;
+          color: white;
+          text-decoration: none;
+          font-size: 12px;
+          border-radius: 5px;
+        }
+    
+        .button:hover {
+          background-color: #d32f2f;
+        }
+    
+        .footer {
+          background-color: #333;
+          color: white;
+          padding: 20px;
+        }
+    
+        .footer p {
+          font-size: 12px;
+          text-align: center;
+        }
+      </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Add a hero section with a title -->
+        <div class="hero">
+          <h1>About Us</h1>
+        </div>
+        <!-- Add a main section with some content -->
+        <div class="main">
+          <!-- Add a section with your brand story -->
+          <div class="section">
+            <h2>Our Story</h2>
+            <p>
+              We are Fashionista, a online fashion store that offers trendy and affordable clothing for women. We started in 2020 as a small blog where we shared our passion for fashion and style. We soon realized that there was a gap in the market for high-quality and low-cost fashion items that catered to different tastes and preferences. That's why we decided to launch our own online store, where we curate and sell the best products from various brands and suppliers. Our mission is to help women look and feel fabulous, without breaking the bank.
+            </p>
+          </div>
+          <!-- Add a section with who you serve -->
+          <div class="section">
+            <h2>Who We Serve</h2>
+            <p>
+              We serve women who love fashion and want to express their personality through their outfits. Whether you are looking for casual, formal, or party wear, we have something for you. We offer a wide range of products, from dresses, tops, and skirts, to jeans, jackets, and accessories. We also have a plus size collection, where you can find flattering and fashionable pieces for every occasion. No matter what your style, budget, or size, we have something for you.
+            </p>
+          </div>
+          <!-- Add a section with how you operate -->
+          <div class="section">
+            <h2>How We Operate</h2>
+            <p>
+              We operate as an online-only store, which means we don't have any physical locations or inventory. Instead, we work with trusted and reliable partners who handle the production, packaging, and shipping of our products. This way, we can offer you the best prices and quality, while reducing our environmental impact. We also use a secure and easy-to-use website, where you can browse, shop, and pay with just a few clicks. We accept all major credit cards, PayPal, and other payment methods. We ship worldwide, and we offer free shipping on orders over $50. We also have a friendly and helpful customer service team, who are always ready to answer your questions and solve your issues.
+            </p>
+          </div>
+          <!-- Add a section with the face of your business -->
+          <div class="section">
+            <h2>The Face of Our Business</h2>
+            <p>
+              We are a small but passionate team of fashion lovers, who are dedicated to bringing you the best online shopping experience. Meet some of our team members below:
+            </p>
+            <!-- Add a grid layout with some images and text -->
+            <div class="grid">
+              <div class="grid-item">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZmFzaGlvbiUyMGJsb2dnZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Anna">
+                <h3>Anna</h3>
+                <p>Founder and CEO</p>
+              </div>
+              <div class="grid-item">
+                <img src="https://images.unsplash.com/photo-1520975954732-24c9a0a33d55?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZmFzaGlvbiUyMHdlYnNpdGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Lisa">
+                <h3>Lisa</h3>
+                <p>Content Manager</p>
+              </div>
+              <div class="grid-item">
+                <img src="https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFzaGlvbiUyMHdlYnNpdGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Mark">
+</body>
+</html>
+

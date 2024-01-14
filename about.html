@@ -5,8 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="fashion.css">
     <title>About Us - Your Fashion Website</title>
+    <!-- <style>
+         .auto {
+          
+            margin: 20px auto;
+            padding: 20px;
+             border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+          
+            /* margin-top: 8px; */
+        } -->
+    </style>
 </head>
 <body>
+    
 
     <!-- Navigation Bar -->
     <nav>
@@ -20,39 +37,54 @@
             <li><a href="blog.html">Blog</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
-    </nav><div class="about-container">
-        <h1>About Us</h1>
-        <p>
-            Welcome to Your Fashion Website, where style meets elegance. 
-            Our passion for fashion drives us to bring you the latest trends, 
-            curated collections, and style inspirations.
-        </p>
-
-        <!-- Functionality: Toggle Content -->
-        <button onclick="toggleContent()">Read More</button>
-
-        <!-- Hidden Content -->
-        <div id="hiddenContent" style="display: none;">
-            <p>
-                At Your Fashion Website, we believe that everyone deserves to 
-                express their unique style. Whether you're a trendsetter or 
-                a classic enthusiast, our platform is here to inspire and guide 
-                you on your fashion journey.
-            </p>
+    </nav>
+        
+    <div class="Container" ,style="display: flex;justify-content: space-between;align-items: center;">
+     
+        <div style="width: 55%; float:right">
+            <img src="https://img.freepik.com/free-photo/high-fashion-portrait-young-elegant-blonde-woman-black-wool-hat-wearing-oversize-white-fringe-poncho-with-long-grey-dress_273443-3799.jpg">
+        </div>
+        <div class="auto" style=" margin: 20px,20px,20px,20px ;
+        padding: 20px;
+         border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+          <p>
+            Welcome to our fashion world! We are passionate about bringing you the latest trends and styles that redefine fashion.Our mission is to inspire and empower individuals to express their unique personalities through clothing.
+          </p>
+          <p >
+            Our fashion brand has grown to become a go-to destination for those seeking cutting-edge designs and high-quality apparel. With a commitment to innovation and customer satisfaction, we strive to create a seamless shopping experience for fashion enthusiasts
+          </p>
+        </div>
+        <div style=" width: 55%; float:left ">
+        <img src="https://img.freepik.com/free-photo/excited-white-girl-bright-stylish-glasses-posing-pink-dreamy-curly-woman-playing-with-her-ginger-hair-laughing_197531-11045.jpg">
+        </div>
+        <div class="aut" style=" margin: 20px,20px,20px,20px ;
+        padding: 20px;
+         border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+          <p>
+            Welcome to our fashion world! We are passionate about bringing you the latest trends and styles that redefine fashion.Our mission is to inspire and empower individuals to express their unique personalities through clothing.
+          </p>
+          <p >
+            Our fashion brand has grown to become a go-to destination for those seeking cutting-edge designs and high-quality apparel. With a commitment to innovation and customer satisfaction, we strive to create a seamless shopping experience for fashion enthusiasts
+          </p>
         </div>
     </div>
+   
 
-    <!-- JavaScript Function to Toggle Content -->
-    <script>
+    
+    <!-- <script>
         function toggleContent() {
             var content = document.getElementById("hiddenContent");
-            if (content.style.display === "none") {
+            if (content.style.display = "none") {
                 content.style.display = "block";
             } else {
                 content.style.display = "none";
             }
         }
-    </script>
+    </script> -->
+     
+
 
 </body>
 </html>
